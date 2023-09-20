@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../form page/form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div align="center"  class="container">
+        <h1>SCHOOL ADMISSION</h1>
+       <form  action="../form page/form.html" >
+        <table >
+            
+            <tr>
+                <td>
+                    NAME
+                </td>
+                <td>
+                :   <input type="text" name="name" required placeholder="enter your name">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>FATHER NAME</td>
+                <td>
+                    :   <input type="text" name="fname" required placeholder="enter father name">
+                </td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td>: <input type="email"></td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td>
+                   : <input type="radio" name="gender" required>male
+                    <input type="radio" name="gender"  required> female
+                </td>
+            </tr>
+           
+            <tr>
+                <td>AGE</td>
+                <td>
+                    :   <input type="number" name="age" min="8" max="15" required></td>
+            </tr>
+            <tr>
+                <td>
+                    PLACE OF BIRTH
+                </td>
+                <td>: <input type="text" required placeholder="enter place of birth"></td>
+            </tr>
+            <tr>
+                <td>LANGUAGE</td>
+                <td>: <input type="checkbox">TAMIL 
+                    <input type="checkbox">ENGLISH 
+                    <input type="checkbox" name="" id="">HINDHI 
+                    <input type="checkbox">MALAYALAM
+                
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    DATE OF BIRTH
+                </td>
+                <td>
+                    :   <input type="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td>CASTE</td>
+                <td>:   <select name="CASTE" id="" required>
+                    <option value="">SELECT..</option>
+                    <option value="">MBC</option>
+                    <option value="">BC</option>
+                    <option value="">OC</option>
+                    <option value="">SC</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>YOUR DOCUMENT</td>
+                <td>: <input type="file" required></td>
+            </tr>
+            <tr>
+                <td>ABOUT</td>
+                <td>
+                    : <textarea name="about" id="" cols="40" rows="1" required placeholder="tell me about yourself"></textarea>
+                </td>
+            </tr>
+        </table>
+       
+        <button type="submit">REGISTER</button>
+        <a href="../about page/index.html">HOME</a>
+       </form>
+    </div>
+</body>
+</html>
